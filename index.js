@@ -12,4 +12,5 @@ client.on('message', message => {
 	console.log('Bread');
 }
 });
-client.login(insert token here);
+
+client.login('token');

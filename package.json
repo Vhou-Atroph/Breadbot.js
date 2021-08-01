@@ -1,16 +1,12 @@
 {
-  "name": "Breadbot",
+  "name": "breadbot",
   "version": "1.0.0",
-  "description": "Reacts to every message sent with Bread.",
+  "description": "A bot that reacts to every message with the Bread emoji!",
+  "homepage": "https://github.com/Vhou-Atroph/Breadbot.js",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "Vhou-Atroph",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.2.0",
-    "express": "^4.17.1"
+    "discord.js": "^12.5.3"
   }
 }
