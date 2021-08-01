@@ -6,10 +6,12 @@ client.once('ready', () => {
 	client.user.setActivity('Bready to react')
 });
 
-client.on('message', message => {
+client.on('message', message => { //Needs proper permissions or it will crash, apparently
 	if (message.content = ' ') {
-	message.react('🍞');
-	console.log('Bread');
+		try {
+		message.react('🍞');
+		console.log('Bread');
+		}
 }
 });
 
