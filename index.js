@@ -11,8 +11,14 @@ client.on('message', message => { //Needs proper permissions or it will crash, a
 		try {
 		message.react('🍞');
 		console.log('Bread');
+		} catch(e) {
+			//Pass Error
 		}
 }
+});
+
+process.on('unhandledRejection', error => {
+	console.error('Unhandled promise rejection:', error);
 });
 
 client.login('token');

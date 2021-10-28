@@ -1,6 +1,6 @@
 {
   "name": "breadbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bot that reacts to every message with the Bread emoji!",
   "homepage": "https://github.com/Vhou-Atroph/Breadbot.js",
   "main": "index.js",
